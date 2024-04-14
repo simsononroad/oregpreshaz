@@ -1,0 +1,347 @@
+/*@import url('https://fonts.googleapis.com/css2?famly=Poppins:wght@200;300;400;600;700;800;900&display=swap');*/
+
+.headed {
+    width: auto;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgba(27, 230, 62, 0.4);
+    opacity: 1;
+}
+
+html {
+    background-image: url("../aloldalak/images/background.png");
+}
+
+span {
+    padding-left: auto;
+
+}
+
+.terkep {
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+.ulll {
+    list-style-type: none;
+    margin: 0.1;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333333;
+    margin-bottom: 10px;
+    text-align: right;
+    border-radius: 20px;
+
+}
+
+.liii {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.liii a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.liii a:hover {
+    background-color: lightgreen;
+    border-radius: 10px;
+    color: black;
+}
+.liii a:hover {
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+.ulll {
+    text-align: center;
+}
+
+.tajekoztato {
+    background-color: rgba(0, 56, 255, 0.1);
+    padding-top: 10px;
+    width: auto;
+    font-size: 30px;
+}
+
+.kozeledo {
+    background-color: rgba(255, 0, 0, 0.195);
+    padding-top: 10px;
+    width: auto;
+    font-size: 30px;
+}
+
+.kozelc {
+    background-color: rgba(255, 91, 91, 0.4);
+    width: auto;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+.elh {
+    background-color: rgba(91, 255, 126, 0.4);
+    width: auto;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+
+.ff {
+    border-radius: 10px;
+    width: 600;
+    border-color: lightgreen;
+    border: 20px;
+}
+
+.aa {
+    border-radius: 10px;
+    width: 200px;
+    border-color: lightgreen;
+    border: 20px;
+}
+
+.aak {
+    border-radius: 10px;
+    width: 105px;
+    border-color: lightgreen;
+    border: 20px;
+}
+
+.imgs {
+    border: 20px;
+    width: 10px;
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.btny {
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.infok {
+    width: auto;
+    max-width: 700px;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.main {
+    border: 1px solid #4287f5;
+    height: 180px;
+    width: 500px;
+    position: relative;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: small;
+}
+#bottomw {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    font-size: small;
+
+}
+#bottomc {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: small;   
+}
+
+.svgs {
+    bottom: 40px;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .80rem;
+    right: .1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 31px;
+    padding-top: 15px;
+    padding-right: 10px;
+    border-width: 10px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1346px) {
+    .toggle-button{
+        display: flex;
+        transition: ease-in;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        border-radius: 10px;
+        transform-style: flat;
+        transition: ease-in;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        transition: ease-in;
+
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+        transition: ease-in;
+    }
+    .navbar-links li{
+        text-align: center;
+        transition: ease-in;
+    }
+    .navbar-links li a{
+        padding: .5rem 1rem;
+        transition: ease-in;
+    }
+    .navbar-links.active {
+        display: flex;
+        transition: ease-in;
+    }
+    .brand-title{
+        font-size: large;
+        transition: ease-in;
+    }
+    .tajekoztato{
+        font-size: medium;
+        transition: ease-in;
+    }
+    .kozelc{
+        font-size: 25px;
+        transition: ease-in;
+    }
+}
+
+.brand-title{
+    font-size: 4rem;
+    margin: .5rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mnu{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    /*padding: 10px;*/
+    display: flex;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 3px;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.2s;
+}
+
+.navbar-links li {
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px;
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+.nyelvvalaszt{
+    padding-left: 10px;
+}
+
+.btnny {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    color: white;
+}
+
+.btnny:click{
+    color: #333;
+}
+
+.buttom{
+    position: absolute;
+    bottom: 5px;
+
+}
+
+ul {
+    font-size: large;
+}
