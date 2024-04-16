@@ -7,7 +7,7 @@
     border-top-right-radius: 10px;
     opacity: 1;
     text-align: center;
-    font-size: 100px;
+    font-size:  60px;
     background-color: rgba(27, 230, 62, 0.4);
     opacity: 1;
 }
@@ -138,6 +138,7 @@ a {
     border: 20px;
     width: 10px;
     background-color: rgba(0, 128, 0, 0.6);
+    resize: both;
 }
 
 .btn {
@@ -265,7 +266,7 @@ a {
 }
 
 .brand-title{
-    font-size: 4rem;
+    font-size: 3rem;
     margin: .5rem;
 }
 
@@ -284,13 +285,22 @@ a {
     background-color: #333;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .navbar-links ul {
     margin: 0;
     /*padding: 10px;*/
     display: flex;
+    padding: 0;
+}
+.navbar-links ul a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-links ul a:hover{
+    background-color: #555;
+    border-radius: 10px;
 }
 
 .navbar-links li a {
@@ -298,18 +308,20 @@ a {
     padding: 10px;
     color: white;
     display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding: 3px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 0px;
+    transition: background-color 0.2s ease-out;
 }
 
-.navbar-links li:hover {
+.navbar-links li a:hover {
     background-color: #555;
-    padding: 10px;
+    /*padding: 10px;*/
     border-radius: 10px;
     border: 10px;
-    padding-left: 10px;
+    /*padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;*/
     transition: background-color 0.2s;
 }
 
@@ -330,10 +342,15 @@ a {
     background-color: rgba(0, 0, 0, 0);
     border: 0px;
     color: white;
+    transition: background-color 0.3 ease-out;
 }
 
 .btnny:click{
     color: #333;
+}
+.btnny:hover{
+    background-color: black;
+    transition: background-color 0.3;
 }
 
 .buttom{
