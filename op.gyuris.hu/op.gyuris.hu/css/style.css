@@ -223,7 +223,7 @@ a {
 }
 
 
-@media (max-width: 1550px) {
+@media (max-width: 1240px) {
     .toggle-button{
         display: flex;
         transition: ease-in;
@@ -231,7 +231,7 @@ a {
 
     .navbar-links {
         display: none;
-        width: 100%;
+        /*width: 100%;*/
         border-radius: 10px;
         transform-style: flat;
         transition: ease-in;
