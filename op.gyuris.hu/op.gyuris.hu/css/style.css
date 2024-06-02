@@ -13,7 +13,9 @@
 }
 
 html {
-    background-image: url("../aloldalak/images/background.png");
+    /*background-image: url("../aloldalak/images/background.png");*/
+    background: rgb(108,255,0);
+    background: linear-gradient(0deg, rgba(108,255,0,1) 0%, rgba(9,121,16,0.40948879551820727) 50%, rgba(108,255,0,1) 100%);
 }
 
 span {
@@ -77,6 +79,7 @@ span {
     padding-top: 10px;
     width: auto;
     font-size: 30px;
+    box-shadow: 0 0 5px #000;
 }
 
 .kozeledo {
@@ -85,6 +88,7 @@ span {
     width: auto;
     font-size: 30px;
     border-radius: 10px;
+    box-shadow: 0 0 10px #901717;
 }
 
 .kozelc {
@@ -374,4 +378,9 @@ a {
 
 ul {
     font-size: large;
+}
+
+.btm{
+    bottom: 10rem;
+    padding-bottom: 0;
 }
