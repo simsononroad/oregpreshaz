@@ -13,7 +13,7 @@
 }
 
 html {
-    /*background-image: url("../aloldalak/images/background.png");*/
+    background-image: url("../aloldalak/images/background.png");
     background: rgb(108,255,0);
     background: linear-gradient(0deg, rgba(108,255,0,1) 0%, rgba(9,121,16,0.40948879551820727) 50%, rgba(108,255,0,1) 100%);
 }
